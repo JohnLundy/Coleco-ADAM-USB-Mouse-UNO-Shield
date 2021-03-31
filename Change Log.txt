@@ -1,0 +1,6 @@
+Version 1
+- Initial Release
+
+Version 2
+- Moved LED output pin to A1. It was discovered that the original pin D12 was also used by the USB HOST shield. Although it was working fine, it was moved to a better location.
+- This will now require all UNO shield boards prior to version 2 to be modified for compatibility with code v1.01 and greater. This can be done by desoldering the R7(5.6K) leg furthest from the LED and slightly bending the desoldered leg over to touch the pin 1 (A1) header pin and solder in place. Picture of this modification can be found int the docs section.
